@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body, html, #root {
+  width: 800px !important; /* ページ全体の幅を固定 */
+  height: 600px !important; /* ページ全体の高さを固定 */
+  overflow: hidden; /* スクロールを無効化 */
+}
+
+body{
+   border: 1px solid #000000;
+   margin: auto;
+}
